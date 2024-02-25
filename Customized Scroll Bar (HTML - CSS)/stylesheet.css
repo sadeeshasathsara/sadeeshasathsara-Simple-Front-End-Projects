@@ -1,0 +1,72 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Just a box for create right marging to scroll bar */
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(32, 62, 80);
+}
+
+.holder{
+    background-color: rgb(6, 85, 109);
+    width: 510px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* Create the overflow of cards */
+
+.container{
+    max-width: 500px;
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+    height: 80vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+/* Add styles for cards */
+
+.card{
+    background-color: rgb(32, 62, 80);
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 30px;
+}
+
+.card-title{
+    color: #ffffff;
+}
+
+.card-body{
+    color: #ffffffa6;
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
+}
+
+/* Cutomize the scroll bar */
+
+::-webkit-scrollbar{
+    background-color: transparent;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+#creadit{
+    color: #c7c7c7;
+    margin-top: 35px;
+}
